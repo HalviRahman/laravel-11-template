@@ -4,12 +4,12 @@
   <div class="user-info">
     <div class="image">
       <img src="{{ asset('assets/images/user.png') }}" width="48" height="48"
-        alt="{{ Auth::user()->name ?? 'Hairul Anam' }}" />
+        alt="{{ Auth::user()->name ?? 'Lab SIM Saintek' }}" />
     </div>
     <div class="info-container">
       <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        {{ Auth::user()->name ?? 'Hairul Anam' }}</div>
-      <div class="email">{{ Auth::user()->email ?? 'hairulanam21@gmail.com' }}</div>
+        {{ Auth::user()->name ?? 'Lab SIM Saintek' }}</div>
+      <div class="email">{{ Auth::user()->email ?? 'saintek@uin-malang.ac.id' }}</div>
       <div class="btn-group user-helper-dropdown">
         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="true">keyboard_arrow_down</i>

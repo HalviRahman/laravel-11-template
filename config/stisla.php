@@ -587,7 +587,7 @@ return [
         ['key' => 'application_version', 'value' => '1.0.0'],
         ['key' => 'app_description', 'value' => 'Deskripsi sistem tulis disini'],
         ['key' => 'city', 'value' => 'Jember'],
-        ['key' => 'company_name', 'value' => 'PT Anam Developer'],
+        ['key' => 'company_name', 'value' => 'LAB SIM SAINTEK UIN MALANG'],
         ['key' => 'country', 'value' => 'Indonesia'],
         [
             'key' => 'favicon',
@@ -599,9 +599,9 @@ return [
 
         [
             'key' => 'meta_author',
-            'value' => 'Hairul Anam'
+            'value' => 'Lab SIM Saintek UIN Malang'
         ],
-        ['key' => 'meta_description', 'value' => 'PT Anam Developer'],
+        ['key' => 'meta_description', 'value' => 'Lab SIM Saintek UIN Malang'],
         [
             'key' => 'meta_keywords',
             'value' => 'Sistem Informasi, Pemrograman, Github, PHP, Laravel, Stisla, Heroku, Gitlab, MySQL'
@@ -622,8 +622,8 @@ return [
         ['key' => 'stisla_skin', 'value' => 'style'],
 
         ['key' => 'mail_provider', 'value' => 'mailtrap'],
-        ['key' => 'mail_from_address', 'value' => 'anamkun@laraveltemplate.com'],
-        ['key' => 'mail_from_name', 'value' => 'Superadmin'],
+        ['key' => 'mail_from_address', 'value' => 'saintek@uin-malang.ac.id'],
+        ['key' => 'mail_from_name', 'value' => 'FakultasSaintek UIN Malang'],
 
         ['key' => 'mail_mailtrap_host', 'value' => 'sandbox.smtp.mailtrap.io'],
         ['key' => 'mail_mailtrap_port', 'value' => '2525'],
@@ -695,9 +695,9 @@ return [
 
         [
             'key' => 'meta_author',
-            'value' => 'Hairul Anam'
+            'value' => 'Lab SIM Saintek UIN Malang'
         ],
-        ['key' => 'meta_description', 'value' => 'PT Anam Developer'],
+        ['key' => 'meta_description', 'value' => 'Lab SIM Saintek UIN Malang'],
         [
             'key' => 'meta_keywords',
             'value' => 'Sistem Informasi, Pemrograman, Github, PHP, Laravel, Stisla, Heroku, Gitlab, MySQL'
@@ -718,8 +718,8 @@ return [
         ['key' => 'stisla_skin', 'value' => 'style'],
 
         ['key' => 'mail_provider', 'value' => 'mailtrap'],
-        ['key' => 'mail_from_address', 'value' => 'anamkun@laraveltemplate.com'],
-        ['key' => 'mail_from_name', 'value' => 'Superadmin'],
+        ['key' => 'mail_from_address', 'value' => 'saintek@uin-malang.ac.id'],
+        ['key' => 'mail_from_name', 'value' => 'Fakultas Saintek UIN Malang'],
 
         ['key' => 'mail_mailtrap_host', 'value' => 'sandbox.smtp.mailtrap.io'],
         ['key' => 'mail_mailtrap_port', 'value' => '2525'],
@@ -776,15 +776,15 @@ return [
 
     'users' => [
         [
-            'name'              => 'Hairul Anam',
-            'email'             => 'superadmin@laraveltemplate.com',
-            'password'          => 'superadmin',
+            'name'              => 'Lab SIM Saintek UIN Malang',
+            'email'             => 'saintek@uin-malang.ac.id',
+            'password'          => 'saintek',
             'roles'             => ['superadmin', 'admin'],
             'email_verified_at' => '2021-04-06 04:06:00',
             'is_locked'         => 1,
             'phone_number'      => '6285322778935',
-            'birth_date'        => '1998-04-08',
-            'address'           => 'Jember'
+            'birth_date'        => '2001-09-29',
+            'address'           => 'Malang'
         ],
         [
             'name'              => 'Admin',
@@ -794,7 +794,7 @@ return [
             'email_verified_at' => '2021-04-06 04:06:00',
             'phone_number'      => '6285322778935',
             'birth_date'        => '1998-04-08',
-            'address'           => 'Jember'
+            'address'           => 'Malang'
         ],
         [
             'name'              => 'User',
@@ -804,7 +804,7 @@ return [
             'email_verified_at' => '2021-04-06 04:06:00',
             'phone_number'      => '6285322778935',
             'birth_date'        => '1998-04-08',
-            'address'           => 'Jember'
+            'address'           => 'Malang'
         ]
     ]
 

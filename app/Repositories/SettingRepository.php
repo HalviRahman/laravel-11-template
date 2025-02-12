@@ -347,7 +347,7 @@ class SettingRepository
     {
         return Setting::firstOrCreate(
             ['key' => 'meta_description'],
-            ['value' => 'PT Anam Maju Pantang Mundur']
+            ['value' => 'CDP Fakultas Saintek UIN Malang']
         )->value;
     }
 
@@ -373,7 +373,7 @@ class SettingRepository
     {
         return Setting::firstOrCreate(
             ['key' => 'meta_author'],
-            ['value' => 'Hairul Anam']
+            ['value' => 'Lab SIM Saintek']
         )->value;
     }
 
@@ -386,7 +386,7 @@ class SettingRepository
     {
         return Setting::firstOrCreate(
             ['key' => 'developer_name'],
-            ['value' => 'Hairul Anam']
+            ['value' => 'Lab SIM Saintek']
         )->value;
     }
 
