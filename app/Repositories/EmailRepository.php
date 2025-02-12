@@ -29,7 +29,7 @@ class EmailRepository
     {
         return Setting::firstOrCreate(
             ['key' => 'mail_from_address'],
-            ['value' => 'hairulanam21@gmail.com']
+            ['value' => 'saintek@uin-malang.ac.id']
         )->value;
     }
 
@@ -45,7 +45,7 @@ class EmailRepository
             $appName = SettingRepository::appName();
             $setting = Setting::create([
                 'key' => 'mail_from_name',
-                'value' => 'Superadmin ' . $appName,
+                'value' => 'Fakultas Saintek UIN Malang ' . $appName,
             ]);
         }
         return $setting->value;

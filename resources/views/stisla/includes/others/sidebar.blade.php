@@ -6,12 +6,14 @@
         <a href="{{ url('') }}">
           <img style="max-width: 60%;" src="{{ asset(config('stisla.logo_aplikasi')) }}"></a>
       @else
-        <a href="{{ url('') }}">{{ $_app_name }}</a>
+        <a href="{{ url('') }}">CDP</a>
+        {{-- <a href="{{ url('') }}">{{ $_app_name }}</a> --}}
       @endif
     </div>
 
     <div class="sidebar-brand sidebar-brand-sm">
-      <a href="{{ url('') }}">{{ $_app_name_mobile }}</a>
+      <a href="{{ url('') }}">CDP</a>
+      {{-- <a href="{{ url('') }}">{{ $_app_name_mobile }}</a> --}}
     </div>
 
     <ul class="sidebar-menu">

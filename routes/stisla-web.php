@@ -6,6 +6,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\TestingController;
 use App\Http\Controllers\YoutubeController;
+use App\Http\Controllers\ProposalController;
 use Illuminate\Support\Facades\Route;
 
 # DASHBOARD
@@ -40,3 +41,12 @@ Route::get('youtube/view-sync', [YoutubeController::class, 'viewSync'])->name('y
 
 # TEST
 Route::get('test', [TestingController::class, 'test'])->name('test');
+
+Route::get('/test-route', function() {
+    return 'Route berfungsi!';
+});
+
+# TEST PROPOSAL
+Route::get('/test-proposal', function() {
+    return 'Proposal route test berfungsi!';
+})->name('test.proposal');

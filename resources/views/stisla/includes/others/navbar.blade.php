@@ -68,9 +68,10 @@
       </div>
     </div> --}}
     {{-- <div class="form-inline mr-auto w-50"> --}}
-    <img class="logoku" src="{{ $_logo_url }}" alt="{{ $_company_name }}">
+    {{-- <img class="logoku" src="{{ $_logo_url }}" alt="{{ $_company_name }}"> --}}
     <h5 class="nama_perusahaan">
-      {{ $_company_name }}
+      {{-- {{ $_company_name }} --}}
+      SIM-CDP
     </h5>
     {{-- </div> --}}
   </form>
